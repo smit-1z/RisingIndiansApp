@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RisingIndians</string>
+    <string name="title_home">Home</string>
+    <string name="title_donate">Donate</string>
+    <string name="title_timeline">Timeline</string>
+    <string name="title_account">Account</string>
+    <string name="action_settings">Account Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="profile_setup_name">Enter Your Name</string>
+    <string name="setup_btn_name_txt">Save Account Settings</string>
+    <string name="TxtAccountSettings">Account Settings</string>
+    <string name="Open">Open navigation drawer</string>
+    <string name="Close">Close Navigation drawer</string>
+    <string name="sortby_month">Month</string>
+    <string name="sortby_year">Year</string>
+    <string name="sortby_day">Day</string>
+    <string name="action_contactus">Contact Us</string>
+    <string name="contact_form_name">Your Name</string>
+    <string name="contact_form_email">Your Email</string>
+    <string name="contact_form_subject">Subject</string>
+    <string name="contact_form_message">Message</string>
+    <string name="contact_form_button">Send Message</string>
+    <string name="label">Your Name</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_email">Your Email</string>
+    <string name="send_message">Send Message</string>
+    <string name="contact_form">Send us an Email</string>
+    <string name="mail_suffix">\@gmail.com</string>
+    <string name="phonenumber"><u>+91 8980862848</u></string>
+    <string name="address">A, 23 Javed Park, Tandalja Road, Vadodara, Gujarat 390020</string>
+    <string name="about_risingindians">"Rising Indians is a group of young and dynamic Indians who work on innovative concept to solve problems faced by people. \n \nRising Indians is a group of dynamic people who want to solve the problems face by people through innovative ways. We believe in solving problem by tapping the potential of youth and finding new ways of doing things. We believe education is basic need for everyone and it should not be costly. We believe, education should be FREE. "</string>
+    <string name="action_aboutus">About Us</string>
+
+</resources>

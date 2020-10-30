@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".NewEventActivity">
+
+    <Button
+        android:id="@+id/submit_event_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/event_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Post Event"
+        android:textSize="18dp"
+        app:backgroundTint = "@color/colorPrimaryDark"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent" />
+
+
+    <EditText
+        android:id="@+id/event_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_new_image"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Add Description"
+        android:inputType="textMultiLine" />
+
+
+
+    <ImageView
+        android:id="@+id/add_new_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/ic_add_photo"
+        tools:ignore="VectorDrawableCompat"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
